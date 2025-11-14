@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelChanger", "ModelChanger\ModelChanger.csproj", "{FE2FF8B8-C6B5-40B8-9D90-B8822B30D308}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE2FF8B8-C6B5-40B8-9D90-B8822B30D308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2FF8B8-C6B5-40B8-9D90-B8822B30D308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2FF8B8-C6B5-40B8-9D90-B8822B30D308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2FF8B8-C6B5-40B8-9D90-B8822B30D308}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
