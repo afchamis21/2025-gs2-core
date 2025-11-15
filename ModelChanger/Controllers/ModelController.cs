@@ -6,7 +6,7 @@ using ModelChanger.Repositories;
 namespace ModelChanger.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/models")]
 [Authorize]
 public class ModelController: ControllerBase
 {

@@ -19,7 +19,7 @@ builder.Services.AddSwaggerGen();
 // 2. Configure the DbContext, using the new connection string
 // Note: We are now using "AppDbContext" which only has the Models
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ModelDbConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // 3. Register your Model repository
 builder.Services.AddScoped<IModelRepository, ModelRepository>();
