@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yJRMBRblhLc=",
+  "dgSpecHash": "59LDdVeA3BA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\afcha\\RiderProjects\\ModelChanger.ModelService\\ModelChanger\\ModelChanger.csproj",
+  "projectFilePath": "C:\\Users\\afcha\\RiderProjects\\ModelChanger\\ModelChanger.ModelService\\ModelChanger\\ModelChanger.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\afcha\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\afcha\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

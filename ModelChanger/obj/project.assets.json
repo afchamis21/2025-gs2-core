@@ -4928,11 +4928,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\afcha\\RiderProjects\\ModelChanger.ModelService\\ModelChanger\\ModelChanger.csproj",
+      "projectUniqueName": "C:\\Users\\afcha\\RiderProjects\\ModelChanger\\ModelChanger.ModelService\\ModelChanger\\ModelChanger.csproj",
       "projectName": "ModelChanger",
-      "projectPath": "C:\\Users\\afcha\\RiderProjects\\ModelChanger.ModelService\\ModelChanger\\ModelChanger.csproj",
+      "projectPath": "C:\\Users\\afcha\\RiderProjects\\ModelChanger\\ModelChanger.ModelService\\ModelChanger\\ModelChanger.csproj",
       "packagesPath": "C:\\Users\\afcha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\afcha\\RiderProjects\\ModelChanger.ModelService\\ModelChanger\\obj\\",
+      "outputPath": "C:\\Users\\afcha\\RiderProjects\\ModelChanger\\ModelChanger.ModelService\\ModelChanger\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

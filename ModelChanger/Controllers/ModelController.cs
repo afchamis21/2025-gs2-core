@@ -7,7 +7,6 @@ namespace ModelChanger.Controllers;
 
 [ApiController]
 [Route("api/models")]
-[Authorize]
 public class ModelController: ControllerBase
 {
     private readonly IModelRepository _repo;
@@ -18,10 +17,12 @@ public class ModelController: ControllerBase
     }
 
     [HttpGet]
+    [Authorize]
     public async Task<IActionResult> GetAll() =>
         Ok(await _repo.GetAllAsync());
 
     [HttpGet("{id:int}")]
+    [Authorize]
     public async Task<IActionResult> Get(int id)
     {
         var model = await _repo.GetByIdAsync(id);
@@ -29,6 +30,7 @@ public class ModelController: ControllerBase
     }
 
     [HttpPost]
+    [Authorize(Roles = "Admin")]
     public async Task<IActionResult> Create([FromBody] Model model)
     {
         var created = await _repo.AddAsync(model);
@@ -36,6 +38,7 @@ public class ModelController: ControllerBase
     }
 
     [HttpPut("{id:int}")]
+    [Authorize(Roles = "Admin")]
     public async Task<IActionResult> Update(int id, [FromBody] Model model)
     {
         if (id != model.Id) return BadRequest();
@@ -44,6 +47,7 @@ public class ModelController: ControllerBase
     }
 
     [HttpDelete("{id:int}")]
+    [Authorize(Roles = "Admin")]
     public async Task<IActionResult> Delete(int id)
     {
         var deleted = await _repo.DeleteAsync(id);
